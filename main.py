@@ -5,7 +5,7 @@ def app():
  if s=='y':
    try:
      import os
-     os.system("pyinstaller -i life.ico -F password.py")
+     os.system("pyinstaller -i im2.ico -F password.py")
    except :
         print("an error occured, try agaian!!")
         os.system(f"pip install https://github.com/pyinstaller/pyinstaller/tarball/develop ")
