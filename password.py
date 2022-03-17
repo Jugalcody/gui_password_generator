@@ -29,7 +29,7 @@ name.place(relx=0.08,rely=0.4)
 e=tk.Entry(root,width=30,font=("Helvatica",14,"bold"),bd=4)
 e.place(relx=0.22,rely=0.395)
 r=tk.Label(root,text="",bd=2,bg="yellow",font=("Helvatica",14))
-r.place(relx=0.1,rely=0.7)
+r.place(relx=0.01,rely=0.7)
 
 root.resizable(False,False)
 
